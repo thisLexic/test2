@@ -22,7 +22,7 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-with open('/home/robertmason4929/secret_key.txt') as f:
+with open('/var/www/secret_key.txt') as f:
     SECRET_KEY = f.read().strip()
 # SECRET_KEY = '!z0(5!q@-pnlbk25ujfrs%)#cb@8(qs^by-ntn!@fu!%09b4!v'
 
